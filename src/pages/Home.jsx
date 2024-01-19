@@ -29,7 +29,7 @@ const Home = () => {
             >
               <source src={BgVideo} type="video/mp4" />
             </video>
-            <Navbar />
+            
             <Hero />
           </div>
           <HeroCard />

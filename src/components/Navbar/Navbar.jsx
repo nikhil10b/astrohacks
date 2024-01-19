@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
             <div className="text-white hidden sm:block">
               <ul className="flex items-center gap-6 text-xl py-4 ">
                 <li>
-                  <a href="#">About</a>
+                <Link to="/images">About</Link>
                 </li>
                 <li>
                   <a href="#">Technology</a>
@@ -26,7 +27,7 @@ const Navbar = () => {
                   <a href="#">Galaxy</a>
                 </li>
                 <li>
-                  <a href="#">Satelite</a>
+                  <Link to="/Satellite">Satelite</Link>
                 </li>
               </ul>
             </div>
