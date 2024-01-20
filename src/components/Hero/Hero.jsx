@@ -7,19 +7,16 @@ const Hero = () => {
       <div className="h-full flex justify-center items-center p-4">
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="text-white space-y-4 lg:pr-36">
-            <h1 data-aos="fade-up" className="text-5xl font-bold">
+          <h1 data-aos="fade-up" className="text-5xl font-bold">
               ORBIT THE EARTH
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea
-              dolorem eius accusamus beatae. Nulla quis beatae quo, possimus
-              tempora similique dignissimos repellat aperiam veniam culpa
-              consequatur repudiandae asperiores saepe.
+              Explore the mysteries of space and experience the thrill of orbiting the Earth. Our cutting-edge satellite technology provides a unique perspective on our planet, allowing you to witness its beauty and complexity like never before.
             </p>
             <button
               data-aos="fade-up"
               data-aos-delay="500"
-              className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
+              className="bg-blue-500 text-white hover:bg-blue-600 px-4 py-2 rounded-md duration-200 focus:outline-none"
             >
               LEARN MORE
             </button>
