@@ -1,5 +1,3 @@
-
-
 import Router from "../src/routes/routes";
 import Navbar from "./components/Navbar/Navbar";
 

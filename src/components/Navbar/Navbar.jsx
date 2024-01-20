@@ -29,6 +29,9 @@ const Navbar = () => {
                 <li>
                   <Link to="/Satellite">Satelite</Link>
                 </li>
+                <li>
+                  <Link to="/MainBodies">Celestial Bodies</Link>
+                </li>
               </ul>
             </div>
             <div>
