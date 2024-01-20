@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navbar from '../components/Navbar/Navbar';
+import background from '../assets/background.png';
 
 
 const MainBodies = () => {
@@ -60,7 +61,9 @@ const MainBodies = () => {
 const containerStyle = {
     backgroundColor: 'black',
     padding: '20px',
-    minHeight: '100vh',
+    backgroundImage: `url(${background})`, // Use the imported variable here
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
   };
   
   // Grid style
@@ -74,7 +77,7 @@ const containerStyle = {
   // Updated card style
   const cardStyle = {
     display: 'block',
-    maxWidth: 'sm',
+    // maxWidth: 'sm',
     padding: '1.5rem',
     backgroundColor: '#1f2937', // Tailwind's dark:bg-gray-800
     border: '1px solid #374151', // Tailwind's dark:border-gray-700

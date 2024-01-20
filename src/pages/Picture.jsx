@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import background from '../assets/background.png';
 
 const Picture = () => {
   const [picture, setPicture] = useState(null);
@@ -39,15 +40,18 @@ const Picture = () => {
 
 // Styles
 const containerStyle = {
-  backgroundColor: 'black',
-  color: 'white',
-  minHeight: '100vh',
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  justifyContent: 'center',
-  padding: '20px',
-};
+    backgroundColor: 'black',
+    color: 'white',
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: '20px',
+    backgroundImage: `url(${background})`, // Use the imported variable here
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  };
 
 const cardStyle = {
   backgroundColor: '#1f2937', // Dark background

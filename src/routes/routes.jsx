@@ -1,8 +1,7 @@
 import React from 'react'
 import {Route,Routes} from 'react-router-dom';
-import CelestialBodies from '../pages/CelestialBodies';
 import MainBodies from '../pages/MainBodies';
-import PhysicalCharacteristics from '../pages/PhysicalCharacteristics';
+import NasaImages from '../pages/NasaImages';
 import Picture from '../pages/Picture';
 import Home from '../pages/Home';
 import Images from '../pages/Images';
@@ -14,8 +13,8 @@ function routes() {
         <Route path='/' element={<Home/>} />
         <Route path='/images' element={<Images/>} />
         <Route path='/Satellite' element={<SatelliteInfo/>} />
-        <Route path='/PhysicalCharacteristics' element={<PhysicalCharacteristics/>} />
-        <Route path='/CelestialBodies' element={<CelestialBodies/>} />
+        <Route path='/NasaImages' element={<NasaImages/>} />
+
         <Route path='/MainBodies' element={<MainBodies/>} />
         <Route path='/Picture' element={<Picture/>} />
         </Routes>
