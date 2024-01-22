@@ -19,7 +19,15 @@ body {
 	font-size: 16px;
 	background: var(--light-color);
 	margin: 20px;
+	background-size: cover; /* Cover the entire viewport */
+	background-position: center; /* Center the image */
+	background-attachment: fixed; /* Optional: Fixes the background */
+	background-repeat: no-repeat; /* Prevents the image from repeating */
+	background-image: url('./assets/celestial.png'); /* Adjust the path as needed */
+
 }
+
+
 
 ul {
 	list-style: none;

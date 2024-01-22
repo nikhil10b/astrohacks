@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
 import { Link } from 'react-router-dom';
+// import Spaces from "../Spaces";
 
 const Navbar = () => {
   return (
@@ -21,10 +22,13 @@ const Navbar = () => {
                 <Link to="/images">Planetary(Gallery)</Link>
                 </li>
                 <li>
-                  <a href="#">Technology</a>
+                  <a href="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https://pannellum.org/images/alma.jpg">Technology</a>
                 </li>
                 <li>
-                  <Link to="/NasaImages">Images(Gallery)</Link>
+                  <Link to="http://localhost:3000/">Chat</Link>
+                </li>
+                <li>
+                  <Link to="/Spaces">Space Exploration History</Link>
                 </li>
                 <li>
                   <Link to="/Satellite">Satellite</Link>
