@@ -8,6 +8,7 @@ import Rapidscat from "../components/Rapidscat/Rapidscat.jsx";
 import Satelite from "../components/Satelite/Satelite.jsx";
 import Footer from "../components/Footer/Footer.jsx";
 import Footer5 from "../components/Footer/Footer5.jsx";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -19,6 +20,8 @@ const Home = () => {
         });
       });
       return (
+        <>
+        <Navbar />
         <div className="">
           <div className="h-[700px] relative">
             <video
@@ -38,6 +41,7 @@ const Home = () => {
           {/* <Footer /> */}
           <Footer5 />
         </div>
+        </>
       );
     };
     

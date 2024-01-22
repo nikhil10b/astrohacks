@@ -1,5 +1,6 @@
 import React from "react";
 import satelitImg from "../../assets/satelite2.jpg";
+import { Link } from 'react-router-dom';
 
 const Rapidscat = () => {
   return (
@@ -30,6 +31,7 @@ const Rapidscat = () => {
                 expedita corporis, non doloremque. Consequatur consectetur
                 quisquam qui sunt.
               </p>
+              <Link to="/NasaImages">
               <button
                 data-aos="fade-up"
                 data-aos-delay="900"
@@ -37,6 +39,7 @@ const Rapidscat = () => {
               >
                 View All
               </button>
+              </Link>
             </div>
             <div data-aos="zoom-in">
               <img

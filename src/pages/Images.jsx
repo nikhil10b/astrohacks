@@ -14,6 +14,7 @@ const Images = () => {
         setImageData(response.data);
       } catch (error) {
         console.error('Error fetching images:', error);
+        
       }
     };
 
@@ -22,7 +23,7 @@ const Images = () => {
 
   return (
     <div className="bg-black text-white p-8">
-      <h1 className="text-6xl font-bold mb-6 text-center my-9">NASA</h1>
+      <h1 className="text-6xl font-bold mb-6 text-center my-9">Planetary(Gallery) </h1>
       {imageData.map((item, index) => (
         <div key={item.date} className={`flex flex-col md:flex-row ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} mb-8`}>
           <div className="w-full md:w-1/2 mb-4 md:mb-0">

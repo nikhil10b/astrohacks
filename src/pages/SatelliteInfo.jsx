@@ -39,8 +39,8 @@ const SatelliteInfo = () => {
       {/* Full-screen black background */}
       <div className="bg-black h-screen w-screen">
         {/* Your SatelliteInfo component */}
-        <div className="mx-auto my-8 bg-black p-8 text-white">
-          <h1 className="text-6xl font-bold mb-4 my-5">Satellite Notifications</h1>
+        <div className="mx-auto  bg-black p-8 text-white">
+          <h1 className="text-6xl font-bold mb-4 ">Satellite Notifications</h1>
 
           <div className="flex flex-wrap">
             {donkiData.map((notification) => (
