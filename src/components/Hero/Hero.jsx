@@ -1,5 +1,6 @@
 import React from "react";
 import MountainPng from "../../assets/moon-surface-hd.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -13,13 +14,15 @@ const Hero = () => {
             <p data-aos="fade-up" data-aos-delay="300">
               Explore the mysteries of space and experience the thrill of orbiting the Earth. Our cutting-edge satellite technology provides a unique perspective on our planet, allowing you to witness its beauty and complexity like never before.
             </p>
+            <Link to="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https://pannellum.org/images/alma.jpg">
             <button
               data-aos="fade-up"
               data-aos-delay="500"
-              className="bg-blue-500 text-white hover:bg-blue-600 px-4 py-2 rounded-md duration-200 focus:outline-none"
+              className="bg-blue-500 text-white hover:bg-blue-600 px-4 py-2 rounded-md duration-200 focus:outline-none my-8"
             >
-              LEARN MORE
+              Experience with AR/VR
             </button>
+            </Link>
           </div>
           <div></div>
         </div>
