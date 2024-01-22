@@ -10,7 +10,7 @@ const Picture = () => {
       try {
         const response = await axios.get('https://api.nasa.gov/planetary/apod', {
           params: {
-            api_key: 'Qh0n7HM3FhPnRrbzTd667aNDwe6ouabueKDTZ6j6' // Replace with your API key
+            api_key: 'Qh0n7HM3FhPnRrbzTd667aNDwe6ouabueKDTZ6j6' 
           }
         });
         setPicture(response.data);
